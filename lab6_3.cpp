@@ -3,6 +3,24 @@ using namespace std;
 
 char before(char x){
 	//Write your function definition here
+	if(x=='A'){
+		x=x+25;
+		
+		return x;
+	}
+	
+	if(x>65 and x<=90){
+		x=x-1;
+		
+		return x;
+	}
+	else{
+		
+		
+		return '0';
+	}
+	
+
 }
 
 int main(){
